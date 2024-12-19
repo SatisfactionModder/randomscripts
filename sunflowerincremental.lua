@@ -39,9 +39,9 @@ SECTIONMAIN:NewButton("Tp to flowers", "", function(toggle)
 
        while _G.FLOWERTP do
         wait()
-        print("Hello!")
+     
         for i,obj in flowers:GetChildren() do
-            print("HELLO")
+      
             if obj:IsA("Model") then
                 local plr = game.Players.LocalPlayer.Character
                 plr.HumanoidRootPart.CFrame = obj:FindFirstChildOfClass("Part").CFrame
